@@ -7,7 +7,7 @@ print( college_problem)
 
 
 # String manipulation
-# Taking user input for a college education problem 
+# Taking user input for  college education problem 
 colleges_problem = input("Enter a college education problem :")
 
 # now applying different string methods

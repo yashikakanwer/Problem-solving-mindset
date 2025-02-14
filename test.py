@@ -70,11 +70,18 @@
 
 # print(student)
 
-student = {"name": "Amit", "age": 20}
+# student = {"name": "Amit", "age": 20}
 
-print(student)
+# print(student)
 
-student = {"name": "Amit", "age": 20}
-for key, value in student.items():
-    print(f"{key}: {value}")
+# student = {"name": "Amit", "age": 20}
+# for key, value in student.items():
+#     print(f"{key}: {value}")
 
+
+A=  [1, 2, 3, 4, 5]
+B = ["A", "B", "C", "D", "E"]
+
+zip(A,B)
+multi_dimensionl_list = [{b :a} for b , a in zip (A , B )]
+print(multi_dimensionl_list)

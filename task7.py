@@ -1,10 +1,10 @@
-# try:
-#   num = int(input("Enter a number:" ))  
-# except ValueError:
-#   print("this is not a number ! plz enter the valid input ")
+try:
+  num = int(input("Enter a number:" ))  
+except ValueError:
+  print("this is not a number ! plz enter the valid input ")
 
-# finally :
-#   print("thanku for visting the site")
+finally :
+  print("thanku for visting the site")
 
 # problem : Age Verification System (if-elif-else with Try-Except-Finally)
 # 👨‍💼 Scenario: Ek program likho jo user se age input le aur eligibility check kare:
@@ -16,42 +16,44 @@
 
 
 
-# try:
-#     age = int(input("Enter your age"))
+try:
+    age = int(input("Enter your age"))
 
-# except ValueError :
-#     print ("required valid input ")
-#     exit()
+except ValueError :
+    print ("required valid input ")
+    exit()
 
-# if ( age > 0 and age < 17  ):
-#     print("You are a minor.")
+if ( age > 0 and age < 17  ):
+    print("You are a minor.")
 
-# elif(age > 18 and age < 60 ):
-#     print("You are an adult ")
+elif(age > 18 and age < 60 ):
+    print("You are an adult ")
 
-# elif(age >= 60 ):
-#     print("You are a senior citizen.")
+elif(age >= 60 ):
+    print("You are a senior citizen.")
 
-# else:
-#     print("Invalid input! Please enter a valid number.")
+else:
+    print("Invalid input! Please enter a valid number.")
+    print("\n________________________________________\n")
+
 
 
 # Task : Even or Odd Checker
 # 👨‍💻 Scenario: Ek program likho jo user se ek number input le aur check kare ki number even hai ya odd.
 
-# try:
-#  num = int(input("Enter a valid number" ))
-# except ValueError:
-#  print("Invalid input! Please enter a valid number.")
-#  exit()
+try:
+ num = int(input("Enter a valid number" ))
+except ValueError:
+ print("Invalid input! Please enter a valid number.")
+ exit()
 
-# if (num % 2 == 0):
-#   print("The number is even ")
+if (num % 2 == 0):
+  print("The number is even ")
 
-# else :
-#     print("The number is odd ")
+else :
+    print("The number is odd ")
 
-
+print("\n________________________________________\n")
 
 try:
   num1 = int(input("enter a num1 "))
@@ -85,4 +87,5 @@ elif ( num3== num1 and num3> num2):
 else :  
     print(" missing condition  ")
 
+print("\n________________________________________\n")
 
